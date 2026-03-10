@@ -1,0 +1,36 @@
+/*
+Theme Name: Webo
+Theme URI: https://mosharafmanu.com
+Description: Child theme for Hello Elementor.
+Author: Mosharaf Hossain
+Author URI: https://mosharafmanu.com
+Template: hello-elementor
+Version: 1.0.0
+Text Domain: webo
+*/
+
+/* Add custom styles below this line. */
+
+.main-menu {
+	backdrop-filter: blur(30px);
+	-webkit-backdrop-filter: blur(30px);
+}
+.popup-menu {
+	backdrop-filter: blur(30px);
+}
+
+/* Hero Style */
+.hero-content-wrapper{
+	position: relative;
+	display: block;
+}
+.hero-content-wrapper .hero-content{
+	display: block !important;
+	cursor: pointer;
+}
+.hero-content:hover .right-arrow{
+	transform:translateX(5px) !important;
+}
+a:hover .right-arrow{
+	transform:translateX(5px) !important;
+}
