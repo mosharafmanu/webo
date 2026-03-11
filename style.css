@@ -19,7 +19,11 @@ Text Domain: webo
 	backdrop-filter: blur(30px);
 }
 
-/* Hero Style */
+/*
+====================================================
+Hero Image Style Start
+====================================================
+*/
 .hero-content-wrapper{
 	position: relative;
 	display: block;
@@ -34,3 +38,25 @@ Text Domain: webo
 a:hover .right-arrow{
 	transform:translateX(5px) !important;
 }
+/*
+====================================================
+Hero Image Style End
+====================================================
+*/
+
+/*
+====================================================
+Box Image Style Start
+====================================================
+*/
+.box-image svg {
+	transition: 0.3s all ease;
+}
+.box-image:hover svg {
+	transform:translateX(5px) !important;
+}
+/*
+====================================================
+Box Image Style End
+====================================================
+*/
