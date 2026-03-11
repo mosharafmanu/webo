@@ -17,6 +17,11 @@ imran
 ==============================================================
 */
 
+/*
+====================================================
+Hero Image Style Start
+====================================================
+*/
 .main-menu {
 	backdrop-filter: blur(30px);
 	-webkit-backdrop-filter: blur(30px);
@@ -27,7 +32,8 @@ imran
 
 /* Hero Style */
 .hero-content-wrapper,
-.blog-content-wrapper{
+.blog-content-wrapper
+.hero-content-wrapper{
 	position: relative;
 	display: block;
 	overflow: hidden;
@@ -96,4 +102,26 @@ Blog Style Start
 ==============================================================
 imran
 ==============================================================
+*/
+/*
+====================================================
+Hero Image Style End
+====================================================
+*/
+
+/*
+====================================================
+Box Image Style Start
+====================================================
+*/
+.box-image svg {
+	transition: 0.3s all ease;
+}
+.box-image:hover svg {
+	transform:translateX(5px) !important;
+}
+/*
+====================================================
+Box Image Style End
+====================================================
 */
