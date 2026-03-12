@@ -31,15 +31,15 @@ Hero Image Style Start
 }
 
 /* Hero Style */
-.hero-content-wrapper,
+/* .hero-content-wrapper,
 .blog-content-wrapper
 .hero-content-wrapper{
 	position: relative;
 	display: block;
 	overflow: hidden;
-}
-.hero-content-wrapper .hero-content,
-.blog-content-wrapper .blog-content{
+} */
+.hero-content-wrapper,
+.blog-content-wrapper{
 	display: block !important;
 	cursor: pointer;
 	background-size: 100% !important;
@@ -53,7 +53,7 @@ Hero Image Style Start
 a:hover .right-arrow{
 	transform:translateX(5px) !important;
 }
-.hero-content-wrapper:hover .hero-content{
+.hero-content-wrapper:hover{
 	background-size: 102% !important;
 }
 
