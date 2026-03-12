@@ -31,19 +31,15 @@ Hero Image Style Start
 }
 
 /* Hero Style */
-/* .hero-content-wrapper,
-.blog-content-wrapper
-.hero-content-wrapper{
-	position: relative;
-	display: block;
-	overflow: hidden;
-} */
 .hero-content-wrapper,
 .blog-content-wrapper{
 	display: block !important;
 	cursor: pointer;
 	background-size: 100% !important;
 	transition: background-size .4s ease;
+}
+.hero-content-wrapper:hover{
+	background-size: 102% !important;
 }
 .hero-content:hover .right-arrow,
 .blog-content:hover .right-arrow,
@@ -52,9 +48,6 @@ Hero Image Style Start
 }
 a:hover .right-arrow{
 	transform:translateX(5px) !important;
-}
-.hero-content-wrapper:hover{
-	background-size: 102% !important;
 }
 
 
