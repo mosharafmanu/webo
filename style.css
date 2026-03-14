@@ -22,25 +22,45 @@ imran
 Hero Image Style Start
 ====================================================
 */
+.section-btn ul li a{
+	text-decoration: underline;
+	color: #066BB1;
+	text-underline-offset: 7px;
+}
 .main-menu {
 	backdrop-filter: blur(30px);
 	-webkit-backdrop-filter: blur(30px);
 }
 .popup-menu {
 	backdrop-filter: blur(30px);
+	/* position: fixed !important; */
 }
 
 /* Hero Style */
-.hero-content-wrapper,
-.blog-content-wrapper{
-	display: block !important;
-	cursor: pointer;
-	background-size: 100% !important;
-	transition: background-size .4s ease;
+.hero-content-wrapper{
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+	z-index: 1;
 }
-.hero-content-wrapper:hover{
-	background-size: 102% !important;
+
+.hero-content-wrapper::before{
+	content: "";
+	position: absolute;
+	inset: 0;
+	background-image: inherit;
+	background-size: cover;
+	background-position: center;
+	transition: transform .4s ease;
+	z-index: -1;
 }
+
+.hero-content-wrapper:hover::before{
+	transform: scale(1.03);
+}
+
+
 .hero-content:hover .right-arrow,
 .blog-content:hover .right-arrow,
 .right-arrow-btn:hover .right-arrow{
